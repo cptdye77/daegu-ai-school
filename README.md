@@ -1,1 +1,1 @@
-# daegu_ai_school
+# 대구 AI 스쿨
