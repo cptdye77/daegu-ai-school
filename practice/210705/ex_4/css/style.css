@@ -1,0 +1,196 @@
+/* 10. */
+.z-one {
+	/*position: absolute;*/
+
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+
+	/*z-index: 10;*/
+}
+
+.z-two {
+	position: absolute;
+
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+
+	/*z-index: 20;*/
+}
+
+
+
+/* 11. */
+.left-1 {
+	float: left;
+
+	width: 100px;
+	height: 150px;
+	background-color: blue;
+}
+
+.right-1 {
+	float: right;
+
+	width: 100px;
+	height: 150px;
+	background-color: green;
+}
+
+
+
+/* 12. 
+header {
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+}
+
+.left {
+	float: left;
+
+	width: 300px;
+	height: 200px;
+	background-color: pink;
+}
+
+.center {
+	float: left;
+
+	width: 500px;
+	height: 200px;
+	background-color: blue;
+} 
+
+.right {
+	position: absolute;
+	float: right;
+
+	width: 300px;
+	height: 200px;
+	background-color: green;
+}
+
+footer {
+	clear: both;
+
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+section {
+	width: 1400px;
+	height: 200px;
+	background-color: orange;
+}
+*/
+
+
+
+/* 13. 
+.left-2 {
+	float: left;
+
+	width: 100px;
+	height: 150px;
+	background-color: yellow;
+}
+
+.right-2 {
+	float: right;
+
+	width: 100px;
+	height: 150px;
+	background-color: blue;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+.clearfix {
+	clear: both;
+}
+
+section {
+	overflow: hidden;
+	width: 800px;
+	background-color: orange;
+}
+*/
+
+
+
+
+/* 14. */
+.over-box {
+	overflow: hidden;
+	/*overflow-y: scroll;*/
+	/*overflow-x: scroll;*/
+
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+}
+
+
+
+/* 15. */
+.container {
+	display: flex;
+	/*flex-direction: row;*/
+	/*flex-wrap: nowrap;*/
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline ;
+
+	width: 1000px;
+	height: 500px;
+	border: solid 10px red;
+}
+
+.item {
+	width: 200px;
+}
+
+.one {
+	height: 100px;
+	background-color: yellow;
+}
+
+.two {
+	height: 200px;
+	background-color: blue;
+}
+
+.three {
+	/*width: 900px;*/
+	height: 300px;
+	background-color: orange;
+}
+
+
+
+/* 16. */
+.center-1 {
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+
+	margin: 0 auto;
+}
+/* 2번 수정해야 하는 단점이 있음 */
+.center-2 {
+	position: relative;
+
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+
+	left: 50%;
+	margin-left: -150px;
+}
